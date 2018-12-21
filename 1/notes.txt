@@ -1,0 +1,69 @@
+///////.HTML//////////
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Hello
+    </title>
+    <link rel = "stylesheet" href = "style.css" />
+  </head>
+  <body>
+    <H1>Head</H1>
+    <script src = "script.js"></script>
+  </body>
+</html>
+//<H1 id = "title"> can set by id
+
+///////.CSS//////////
+body{
+  background-color : Red;
+}
+
+///////.JS//////////
+let a = 221;
+let b = a - 5;
+a = 4;
+const what = "hello";
+const whatbool = true;
+const whatfloat = 5.51;
+console.log(b, a);
+// var isn't very good
+// use const for constant unchanging numbers
+// <- comment like this
+/* */  <-- or like this
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]; <-- array
+to print, console.log(daysOfWeek);
+daysOfWeek[2] <= Wed comes up
+
+****Object
+const jkInfo = {
+  name: "JK",
+  age : 33,
+  gender: "Male",
+  isOkay: true,
+  favMovies: ["Harry Potter", "LOTR"],
+  favFood: [{ name: "Kimchi", fatty: false}, { name: "Cheese Burger", fatty: true}]
+}
+=> to access, 
+console.log(jkInfo.gender);
+=> to change,
+jkInfo.gender = "Female";
+
+****Function
+function sayHello(argument){
+  console.log('Hello!', argument);
+}
+// can use + instead of ,
+sayHello(abcdef); <-Use like this
+
+****VERY INTERESTING
+function sayHello(name, age){
+  return `Hello ${name} you are ${age} years old`);
+}
+const greetJk = sayHello("JK", 14);
+console.log(greetJk);
+
+**document.getElementById("idname");
+**console.error("errormsg");
+**DOM
+**title.innerHTML = "now chaged!";
