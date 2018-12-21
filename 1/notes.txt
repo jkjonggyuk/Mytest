@@ -67,3 +67,4 @@ console.log(greetJk);
 **console.error("errormsg");
 **DOM
 **title.innerHTML = "now chaged!";
+**console.dir(title); or (document)
