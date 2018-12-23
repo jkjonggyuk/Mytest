@@ -3,5 +3,14 @@ body{
 }
 
 h1{
-  color: white;
+  color: #34495e;
+  transition: color 1s ease-in-out; /* prettier*/
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.clicked {
+  color: #7f8c8d;
 }
